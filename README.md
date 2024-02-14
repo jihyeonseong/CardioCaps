@@ -11,3 +11,28 @@ Capsule Neural Networks (CapsNets) is a novel architecture that utilizes vector-
 * We demonstrate the robustness of CardioCaps through comprehensive comparisons against various baselines.
 ## Running the codes
 ### STEP 1. Download the Echocardiogram datsets
+* The datasets can be downloaded form the [EchoNet-LVH](https://echonet.github.io/lvh/).
+* Create a directory named "data" and store downloaded datasets within it.
+### STEP 2. Data-Preprocessing: video to image
+```
+python data_preprocessing.py
+```
+### STEP 3. Train the classifiers including CNN, ResNet, U-Net, ViT, and CardioCaps
+For traditional baseline models,
+```
+python main_cnn.py --model=ViT --train --inference
+```
+and for CardioCaps,
+```
+python main_dr.py --model=CardioCaps --train --inference
+```
+finally, run ipynb file for ML baseline classifiers.
+### CardioCaps performance
+1. Comparison with ML basleines
+![image](https://github.com/jihyeonseong/CardioCaps/assets/159874470/483020e0-9f34-4773-b0b7-b1155684c4db)
+2. Comparison with DL baselines
+![image](https://github.com/jihyeonseong/CardioCaps/assets/159874470/2d1a41c3-3ae9-4e7a-a2c4-20ad92779457)
+3. Comparison with advanced CapsNets
+![image](https://github.com/jihyeonseong/CardioCaps/assets/159874470/574b9586-c148-40d6-9241-2e66ede8da2a)
+## Citation
+Will be uploaded soon...
