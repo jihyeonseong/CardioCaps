@@ -35,4 +35,20 @@ finally, run ipynb file for ML baseline classifiers.
 3. Comparison with advanced CapsNets
 ![image](https://github.com/jihyeonseong/CardioCaps/assets/159874470/574b9586-c148-40d6-9241-2e66ede8da2a)
 ## Citation
-Will be uploaded soon...
+```
+@INPROCEEDINGS {10488274,
+author = {H. Han and J. Seong and J. Choi},
+booktitle = {2024 IEEE International Conference on Big Data and Smart Computing (BigComp)},
+title = {CardioCaps: Attention-Based Capsule Network for Class-Imbalanced Echocardiogram Classification},
+year = {2024},
+volume = {},
+issn = {},
+pages = {287-294},
+keywords = {weight measurement;training;neurons;routing;sampling methods;loss measurement;robustness},
+doi = {10.1109/BigComp60711.2024.00052},
+url = {https://doi.ieeecomputersociety.org/10.1109/BigComp60711.2024.00052},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {feb}
+}
+```
